@@ -9,7 +9,11 @@ body {
 .entire-content {
 	width: 960px;
 	padding: 0px;
+	margin: auto;
 }
+
+/*------ Navigation Bar  ------*/
+
 .navbar {
 	padding: 0px;
 }
@@ -25,6 +29,26 @@ body {
 #logo {
 	border-radius: 90px;
 	margin: 10px;
+}
+
+/*------ About Section  ------*/
+.about-section {
+	position: relative;
+	top: 30px;
+	background-color: #414644f2;
+	color: #fff7d9;
+	line-height: 2em;
+}
+
+#profile-photo {
+	width: 200px;
+	display: inline-block;
+	float: left;
+	margin: 10px 20px 10px auto;
+}
+
+.page-content {
+	padding: 20px;
 }
 
 /*
