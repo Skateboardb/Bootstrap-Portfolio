@@ -6,6 +6,10 @@ body {
 	background-image: url("../images/SeeingSpots_1920x1234.jpg");
 }
 
+.bg-dark {
+	background-color: #414644fc !important;
+}
+
 .entire-content {
 	width: 960px;
 	padding: 0px;
@@ -31,13 +35,19 @@ body {
 	margin: 10px;
 }
 
-/*------ About Section  ------*/
-.about-section {
-	position: relative;
-	top: 30px;
+/*------ Content Section  ------*/
+
+/** about **/
+
+.main-section {
 	background-color: #414644f2;
 	color: #fff7d9;
-	line-height: 2em;
+	margin-top: 30px;
+	width: 960px;
+}
+
+.box-head {
+	border-bottom: 1px solid #fff7d9;
 }
 
 #profile-photo {
@@ -51,6 +61,24 @@ body {
 	padding: 20px 50px 20px 50px;
 }
 
+/*------ Contact Section ------*/
+
+.input-box {
+	width: auto;
+	resize: auto;
+}
+
+.subhead {
+	font-weight: normal;
+}
+
+/* ------ Footer ------*/
+footer {
+	background-color: #414644fc;
+	border-top: solid 10px #477a67;
+	color: #fff7d9;
+	text-align: center;
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
