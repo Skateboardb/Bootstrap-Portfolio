@@ -72,6 +72,16 @@ body {
 	font-weight: normal;
 }
 
+/*------ Portfolio Section  ------*/
+.portfolio-image {
+	width: 250px;
+	margin-right: 50px;
+}
+
+.col-md-3 {
+	margin-right: 100px;
+}
+
 /* ------ Footer ------*/
 footer {
 	background-color: #414644fc;
